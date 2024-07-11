@@ -1,0 +1,12 @@
+Source: ros-humble-classic-bags
+Section: misc
+Priority: optional
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-pytest <!nocheck>, ros-humble-ament-cmake-python, ros-humble-builtin-interfaces, ros-humble-rclcpp, ros-humble-rclpy, ros-humble-rosbag2-cpp, ros-humble-rosbag2-py, ros-humble-rosbag2-storage, ros-humble-rosbag2-storage-default-plugins <!nocheck>, ros-humble-rosbag2-storage-mcap <!nocheck>, ros-humble-rosidl-runtime-py, ros-humble-std-msgs <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-classic-bags
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-builtin-interfaces, ros-humble-rclcpp, ros-humble-rclpy, ros-humble-rosbag2-cpp, ros-humble-rosbag2-py, ros-humble-rosbag2-storage, ros-humble-rosidl-runtime-py, ros-humble-ros-workspace
+Description: A ROS 2 interface in the style of ROS 1 for reading and writing bag files
